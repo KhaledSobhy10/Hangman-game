@@ -1,0 +1,20 @@
+{
+  "name": "pro-hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-pro": "webpack --mode production",
+    "build-dev": "webpack --mode development"
+  },
+  "author": "kh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
